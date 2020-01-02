@@ -29,7 +29,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/subuh"
         android:layout_width="413dp"
         android:layout_height="87dp"
         android:background="@drawable/btn_pil_niat"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_back"
         android:layout_width="77dp"
         android:layout_height="27dp"
         android:layout_marginBottom="48dp"

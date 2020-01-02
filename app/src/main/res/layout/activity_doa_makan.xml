@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Niatnya">
+    tools:context=".Doanya">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
-        android:text="Niat Sholat Subuh"
+        android:text="Doa Sebelum Makan"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView3"
@@ -39,10 +39,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:srcCompat="@drawable/niat_subuh" />
+        app:srcCompat="@drawable/doa_sblm_makan" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_back"
         android:layout_width="77dp"
         android:layout_height="27dp"
         android:layout_marginBottom="48dp"
